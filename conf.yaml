@@ -8,10 +8,10 @@
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
+  json_url: "https://hkjsxb.xin/friend.json"
   article_count: 5
   merge_result:
-    enable: false
+    enable: true
     merge_json_url: "https://fc.liushen.fun"
 
 # 邮箱推送功能配置，暂未实现，等待后续开发
@@ -36,12 +36,12 @@ email_push:
 #     title:            你的博客标题，如果启用了推送，用于生成邮件主题
 rss_subscribe:
   enable: true
-  github_username: willow-god
+  github_username: hkjsxb
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://hkjsxb.xin/
   email_template: "./push_templates/default.html"
   website_info:
-    title: "清羽飞扬"
+    title: "𝐻𝓀𝒿𝓈𝓍𝒷 ' 𝐵𝓁𝑜𝑔"
 
 # SMTP 配置
 # 解释：使用其中的相关配置实现上面两种功能，若无推送要求可以不配置，请将以上两个配置置为false
@@ -50,9 +50,9 @@ rss_subscribe:
 #   port：              SMTP 端口号
 #   use_tls：           是否使用 tls 加密
 smtp:
-  email: notify@liushen.fun
-  server: smtp.exmail.qq.com
-  port: 465
+  email: hkjsxb@163.com
+  server: smtp.163.com
+  port: 25
   use_tls: true
 
 # 特殊RSS地址指定，可以置空但是不要删除！
